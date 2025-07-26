@@ -1,0 +1,8 @@
+*.exe
+*.out
+*.bin
+*.dll
+*.so
+*.dylib
+AAA_List/
+.vscode/
