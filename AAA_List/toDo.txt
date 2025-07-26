@@ -1,0 +1,11 @@
+Wyszukiwanie najczęstszego elementu zbioru
+Wyszukiwanie binarne
+Wyszukiwanie wzorca w tekście
+Najdłuższy wspólny podciąg
+Generowanie anagramów
+Generowanie i zliczanie permutacji (tu mógłby się pojawić Dijkstra)
+Zbiór potęgowy
+Tworzenie k-elementowych kombinacji bez powtórzeń zbioru n-elementowego
+Minimalne drzewo rozpinające (np. Prim, Kruskal)
+Problem komiwojażera (heurystyka)
+Sprawdzanie czy ciąg jest palindromems
