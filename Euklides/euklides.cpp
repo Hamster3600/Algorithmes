@@ -1,3 +1,17 @@
+/* 
+Explanation of the algorithm:
+1. The program calculates the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two numbers.
+2. The function `gcd`:
+   - Implements the Euclidean algorithm to find the GCD.
+   - Iteratively replaces the larger number with its remainder when divided by the smaller number.
+3. The function `lcm`:
+   - Calculates the LCM using the formula: `LCM = (a * b) / GCD`.
+4. The main function:
+   - Prompts the user to input two numbers.
+   - Handles negative inputs by converting them to positive.
+   - Calls `gcd` and `lcm` to compute and display the results.
+*/
+
 #include <iostream>
 
 int gcd(int a, int b) {

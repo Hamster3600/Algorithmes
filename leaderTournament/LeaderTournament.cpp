@@ -1,3 +1,19 @@
+/* 
+Explanation of the algorithm:
+1. The program finds the leader (majority element) in an array using the tournament method.
+2. The function `findLeaderTournament`:
+   - Iteratively reduces the array size by comparing pairs of elements.
+   - Retains elements that are equal and discards others.
+   - Returns the potential leader after all rounds.
+3. The function `isLeader`:
+   - Checks if the candidate leader appears more than half the time in the array.
+4. The main function:
+   - Reads the array from the user.
+   - Calls `findLeaderTournament` to find the candidate leader.
+   - Calls `isLeader` to verify if the candidate is the actual leader.
+   - Outputs the result.
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;

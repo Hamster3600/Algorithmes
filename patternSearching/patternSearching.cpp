@@ -1,3 +1,15 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the naive pattern searching algorithm to find all occurrences of a pattern in a text.
+2. The function `naivePatternSearch`:
+   - Iterates through the text, checking each substring of the same length as the pattern.
+   - Compares the substring with the pattern character by character.
+   - Stores the starting index of matches in a vector.
+3. The main function:
+   - Defines a text and a pattern.
+   - Calls `naivePatternSearch` to find and display all occurrences of the pattern in the text.
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>

@@ -1,3 +1,16 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Counting Sort algorithm to sort an array.
+2. The function `countingSort`:
+   - Finds the minimum and maximum values in the array.
+   - Creates a frequency array to count occurrences of each value.
+   - Reconstructs the sorted array using the frequency array.
+3. The main function:
+   - Defines an array and its size.
+   - Calls `countingSort` to sort the array.
+   - Displays the array before and after sorting.
+*/
+
 #include <iostream>
 #include <vector>
 

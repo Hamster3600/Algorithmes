@@ -1,3 +1,17 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Merge Sort algorithm to sort an array.
+2. The function `merge`:
+   - Merges two sorted subarrays into a single sorted array.
+3. The function `mergeSort`:
+   - Recursively divides the array into two halves.
+   - Sorts each half and merges them using the `merge` function.
+4. The main function:
+   - Defines an array and its size.
+   - Calls `mergeSort` to sort the array.
+   - Displays the array before and after sorting.
+*/
+
 #include <iostream>
 #include <vector>
 

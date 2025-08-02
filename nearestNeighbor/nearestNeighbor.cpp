@@ -1,3 +1,15 @@
+/* 
+Explanation of the algorithm:
+1. The program solves the Traveling Salesman Problem (TSP) using the nearest neighbor heuristic.
+2. The function `solveTSPNearestNeighbor`:
+   - Starts from an initial city and iteratively selects the nearest unvisited city.
+   - Marks cities as visited and adds them to the path.
+   - Calculates the total cost of the path.
+3. The main function:
+   - Defines a graph as an adjacency matrix.
+   - Calls `solveTSPNearestNeighbor` to compute and display the solution.
+*/
+
 #include <iostream>
 #include <vector>
 #include <limits> 

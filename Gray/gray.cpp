@@ -1,3 +1,19 @@
+/* 
+Explanation of the algorithm:
+1. The program converts a binary number to its Gray code representation.
+2. The function `binaryStringToDecimal`:
+   - Converts a binary string into its decimal equivalent.
+   - Iterates through each character of the binary string and calculates the decimal value.
+3. The function `decimalToBinaryString`:
+   - Converts a decimal number into its binary string representation.
+   - Uses a loop to extract binary digits and constructs the binary string.
+4. The function `binaryToGray`:
+   - Converts a decimal number to its Gray code representation using the formula: `Gray = Binary XOR (Binary >> 1)`.
+5. The main function:
+   - Prompts the user to input a binary number.
+   - Converts the binary number to Gray code and displays the result.
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;

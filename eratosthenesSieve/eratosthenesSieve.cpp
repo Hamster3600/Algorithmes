@@ -1,3 +1,15 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Sieve of Eratosthenes to find all prime numbers up to a given limit.
+2. The function `sieveOfEratosthenes`:
+   - Initializes an array to mark numbers as prime or non-prime.
+   - Iterates through numbers starting from 2, marking multiples of each number as non-prime.
+   - Stops when all multiples of numbers up to the square root of the limit are processed.
+3. The main function:
+   - Defines the limit for prime number generation.
+   - Calls `sieveOfEratosthenes` to compute and display all prime numbers up to the limit.
+*/
+
 #include <iostream>
 #include <cmath>
 

@@ -1,3 +1,14 @@
+/* 
+Explanation of the algorithm:
+1. The program checks whether a given string is a palindrome.
+2. The function `isPalindrome`:
+   - Compares characters from the beginning and end of the string, moving toward the center.
+   - Returns `false` if any mismatch is found; otherwise, returns `true`.
+3. The main function:
+   - Defines a test string.
+   - Calls `isPalindrome` and displays whether the string is a palindrome.
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>

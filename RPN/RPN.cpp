@@ -1,3 +1,16 @@
+/* 
+Explanation of the algorithm:
+1. The program evaluates a mathematical expression written in Reverse Polish Notation (RPN).
+2. The main function:
+   - Reads the RPN expression from the user.
+   - Uses a stack to store numbers and perform operations.
+   - Iterates through the expression:
+     - Pushes numbers onto the stack.
+     - Applies operators to the top two numbers on the stack.
+   - Handles errors such as invalid characters, stack overflow, and division by zero.
+   - Outputs the result of the evaluation.
+*/
+
 #include <iostream>
 #include <string>
 

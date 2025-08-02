@@ -1,3 +1,15 @@
+/* 
+Explanation of the algorithm:
+1. The program generates all possible combinations of a given set of elements.
+2. The function `generateCombinations`:
+   - Takes a set of elements, the desired combination size (`k`), the starting index, and a temporary combination vector.
+   - Recursively builds combinations by adding elements to the current combination.
+   - Stops when the combination size equals `k` and prints the combination.
+3. The main function:
+   - Defines a set of elements and the desired combination size.
+   - Calls `generateCombinations` to generate and display all combinations.
+*/
+
 #include <iostream>
 #include <vector>
 

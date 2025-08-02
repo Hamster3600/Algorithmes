@@ -1,3 +1,18 @@
+/* 
+Explanation of the algorithm:
+1. The program calculates the length of the Longest Common Subsequence (LCS) between two strings.
+2. The function `longestCommonSubsequenceLength`:
+   - Takes two strings as input.
+   - Uses dynamic programming to build a 2D table (`dp`) where `dp[i][j]` represents the LCS length for substrings `text1[0..i-1]` and `text2[0..j-1]`.
+   - Iterates through both strings:
+     - If characters match, the LCS length is incremented.
+     - Otherwise, the maximum LCS length from previous states is used.
+   - Returns the final LCS length from the table.
+3. The main function:
+   - Defines two test strings.
+   - Calls `longestCommonSubsequenceLength` and prints the result.
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>

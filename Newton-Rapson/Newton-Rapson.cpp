@@ -1,3 +1,16 @@
+/* 
+Explanation of the algorithm:
+1. The program calculates the square root of a number using the Newton-Raphson method.
+2. The function `method_Newton_Rapson`:
+   - Takes a number and an epsilon value (precision) as input.
+   - Starts with an initial guess for the square root.
+   - Iteratively refines the guess using the formula: `next_guess = current_guess - (function / derivativeFunction)`.
+   - Stops when the difference between the guess squared and the number is within the epsilon range.
+3. The main function:
+   - Calls `method_Newton_Rapson` with a test number and precision.
+   - Prints the calculated square root.
+*/
+
 #include <iostream>
 
 double method_Newton_Rapson(int number, double epsilon){
@@ -32,6 +45,6 @@ double method_Newton_Rapson(int number, double epsilon){
 }
 
 int main(){
-    std::cout << "Sqare root = " << method_Newton_Rapson(25, 0.0000001);
+    std::cout << "Sqare root = " << method_Newton_Rapson(2, 0.0000001) << std::endl;
     return 0;
 }

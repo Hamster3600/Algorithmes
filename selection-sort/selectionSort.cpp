@@ -1,3 +1,18 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Selection Sort algorithm to sort an array.
+2. The function `selectionSort`:
+   - Iterates through the array to find the smallest element in the unsorted portion.
+   - Swaps the smallest element with the first element of the unsorted portion.
+   - Repeats the process until the entire array is sorted.
+3. The function `swap`:
+   - Swaps two elements in the array.
+4. The main function:
+   - Defines an array and its size.
+   - Calls `selectionSort` to sort the array.
+   - Displays the array before and after sorting.
+*/
+
 #include <iostream>
 
 void swap(int& a, int& b) {

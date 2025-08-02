@@ -1,3 +1,16 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Bubble Sort algorithm to sort an array.
+2. The function `bubbleSort`:
+   - Iterates through the array multiple times.
+   - Compares adjacent elements and swaps them if they are in the wrong order.
+   - Repeats the process until the array is fully sorted.
+3. The main function:
+   - Defines an array and its size.
+   - Calls `bubbleSort` to sort the array.
+   - Displays the array before and after sorting.
+*/
+
 #include <iostream>
 
 void bubbleSort(int tab[], int n){

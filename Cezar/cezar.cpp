@@ -1,3 +1,13 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Caesar cipher for encryption and decryption.
+2. The main function:
+   - Prompts the user to input a ciphertext and a key.
+   - Defines the alphabet used for encryption and decryption.
+   - Iterates through each character of the ciphertext, shifting it by the key to perform encryption or decryption.
+   - Displays the resulting text.
+*/
+
 #include <string>
 #include <iostream>
 
@@ -8,10 +18,10 @@ int main(){
     int klucz;
 
     cout << "Podaj szyfrogram: ";
-    getline(cin, szyfrogram); // lepszy dla liń
+    getline(cin, szyfrogram);
 
     cout << "Podaj klucz: ";
-    cin >> klucz; // lepszy dla cyfr
+    cin >> klucz;
 
 
     const string ALPHABET = "ASBCDEFGHIJKLMNOPQRSTUVWXYZ";

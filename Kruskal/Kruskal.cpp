@@ -1,3 +1,21 @@
+/* 
+Explanation of the algorithm:
+1. The program implements Kruskal's algorithm to find the Minimum Spanning Tree (MST) of a graph.
+2. The function `sortEdges`:
+   - Sorts the edges of the graph based on their weights using a simple sorting algorithm.
+3. The `DSU` (Disjoint Set Union) structure:
+   - Provides methods for union-find operations to detect cycles in the graph.
+   - Includes `find` to locate the root of a set and `unite` to merge two sets.
+4. The function `kruskalMST`:
+   - Sorts the edges by weight.
+   - Iterates through the edges, adding them to the MST if they do not form a cycle.
+   - Uses the DSU structure to manage connected components.
+   - Outputs the edges in the MST and the total weight.
+5. The main function:
+   - Defines a graph with vertices and edges.
+   - Calls `kruskalMST` to compute and display
+*/
+
 #include <iostream>
 #include <vector>
 

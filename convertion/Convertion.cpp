@@ -1,3 +1,16 @@
+/* 
+Explanation of the algorithm:
+1. The program performs number system conversions between decimal, binary, octal, and hexadecimal.
+2. The function `decimalToBase`:
+   - Converts a decimal number to a specified base (binary, octal, or hexadecimal).
+3. The function `baseToDecimal`:
+   - Converts a number from a specified base to decimal using Horner's method.
+4. The main function:
+   - Displays a menu for the user to choose a conversion type.
+   - Prompts the user for input and performs the selected conversion.
+   - Outputs the result.
+*/
+
 #include <iostream>
 #include <string>
 #include <algorithm>

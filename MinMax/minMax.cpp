@@ -1,3 +1,13 @@
+/* 
+Explanation of the algorithm:
+1. The program finds the minimum and maximum values in an array.
+2. The main function:
+   - Prompts the user to input the size of the array and its elements.
+   - Validates the input to ensure the size is within the allowed range.
+   - Iterates through the array to find the minimum and maximum values.
+   - Displays the results.
+*/
+
 #include <iostream>
 
 int main() {

@@ -1,3 +1,15 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Vernam cipher for encryption and decryption.
+2. The function `vernamCipher`:
+   - Takes a plaintext and a key as input.
+   - Encrypts or decrypts the text by performing a bitwise XOR operation between each character of the text and the corresponding character of the key.
+   - Returns the resulting encrypted or decrypted text.
+3. The main function:
+   - Prompts the user to input a plaintext and a key.
+   - Calls `vernamCipher` to perform encryption or decryption and displays the result.
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;

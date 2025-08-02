@@ -1,3 +1,17 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the binary search algorithm to find a target element in a sorted array.
+2. The function `binarySearch`:
+   - Takes a sorted array and a target value as input.
+   - Uses two pointers (`low` and `high`) to define the search range.
+   - Calculates the middle index (`mid`) and compares the value at `mid` with the target.
+   - Adjusts the search range based on whether the target is smaller or larger than the value at `mid`.
+   - Returns the index of the target if found, or -1 if not found.
+3. The main function:
+   - Defines a sorted array and a target value.
+   - Calls `binarySearch` and prints the result.
+*/
+
 #include <iostream>
 #include <vector>
 

@@ -1,3 +1,17 @@
+/* 
+Explanation of the algorithm:
+1. The program generates all possible anagrams of a given string.
+2. The function `swapChars`:
+   - Swaps two characters in the string to create permutations.
+3. The function `generateAnagrams`:
+   - Recursively generates anagrams by swapping characters at different positions.
+   - Stops when all characters have been fixed in their positions.
+   - Prints each generated anagram.
+4. The main function:
+   - Defines a test string.
+   - Calls `generateAnagrams` to compute and display all anagrams.
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -17,7 +31,7 @@ void generateAnagrams(std::string str, int k) {
     for (int i = k; i < str.length(); i++) {
         swapChars(str, k, i);
         generateAnagrams(str, k + 1);
-        swapChars(str, k, i); // Backtrack
+        swapChars(str, k, i);
     }
 }
 

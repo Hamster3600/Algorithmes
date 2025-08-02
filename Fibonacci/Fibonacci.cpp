@@ -1,3 +1,14 @@
+/* 
+Explanation of the algorithm:
+1. The program generates the Fibonacci sequence up to a specified number of terms.
+2. The main function:
+   - Prompts the user to input the number of terms to generate.
+   - Validates the input to ensure it is within the allowed range.
+   - Initializes the first two terms of the Fibonacci sequence.
+   - Iteratively calculates subsequent terms using the formula: `F(n) = F(n-1) + F(n-2)`.
+   - Displays the generated sequence.
+*/
+
 #include <iostream>
 
 int main() {

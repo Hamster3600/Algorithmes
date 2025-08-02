@@ -1,3 +1,17 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Quick Sort algorithm to sort an array.
+2. The function `partition`:
+   - Selects a pivot element and rearranges the array such that elements smaller than the pivot are on the left and elements larger are on the right.
+   - Returns the index of the pivot after partitioning.
+3. The function `quickSort`:
+   - Recursively sorts the subarrays on either side of the pivot.
+4. The main function:
+   - Defines an array and its size.
+   - Calls `quickSort` to sort the array.
+   - Displays the array before and after sorting.
+*/
+
 #include <iostream>
 #include <vector>
 
@@ -7,18 +21,18 @@ void swap(int& a, int& b) {
     b = temp;
 }
 
-int partition(std::vector<int>& arr, int low, int high){
+int partition(std::vector<int>& arr, int low, int high) {
     int pivot = arr[high];
-    int i = (low - 1);
+    int i = low - 1;
 
-    for(int j = low; j <= high; j++){
-        if(arr[j] <= pivot){
-            i++;    
+    for (int j = low; j < high; j++) { 
+        if (arr[j] <= pivot) {
+            i++;
             swap(arr[i], arr[j]);
         }
     }
     swap(arr[i + 1], arr[high]);
-    return(i + 1);
+    return i + 1;
 }
 
 void quickSort(std::vector<int>& arr, int low, int high){

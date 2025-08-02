@@ -1,3 +1,17 @@
+/* 
+Explanation of the algorithm:
+1. The program generates all permutations of a given set of elements and calculates the total number of permutations.
+2. The function `generatePermutations`:
+   - Recursively swaps elements to generate permutations.
+   - Stops when the permutation size equals the size of the set and prints the permutation.
+3. The function `factorial`:
+   - Calculates the factorial of a number to determine the total number of permutations.
+4. The main function:
+   - Defines a set of elements.
+   - Calls `generatePermutations` to generate and display all permutations.
+   - Calls `factorial` to compute and display the total number of permutations.
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>

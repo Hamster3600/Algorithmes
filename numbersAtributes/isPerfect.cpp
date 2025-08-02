@@ -1,3 +1,14 @@
+/* 
+Explanation of the algorithm:
+1. The program checks whether a given number is a perfect number.
+2. The main function:
+   - Defines a test number.
+   - Iterates through all integers less than the number to find its divisors.
+   - Calculates the sum of the divisors.
+   - Compares the sum with the original number to determine if it is perfect.
+   - Outputs the result.
+*/
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,15 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the Insertion Sort algorithm to sort an array.
+2. The function `insertonSort`:
+   - Iterates through the array, treating the first part as sorted and the rest as unsorted.
+   - Inserts each element from the unsorted part into its correct position in the sorted part.
+3. The main function:
+   - Defines an array and its size.
+   - Calls `insertonSort` to sort the array.
+   - Displays the array before and after sorting.
+*/
+
 #include <iostream>
 #include <vector>
 

@@ -1,3 +1,15 @@
+/* 
+Explanation of the algorithm:
+1. The program implements the columnar transposition cipher for encryption.
+2. The function `encrypt`:
+   - Takes plaintext and the number of columns (key) as input.
+   - Rearranges the characters of the plaintext into columns and reads them column by column.
+   - Returns the encrypted text.
+3. The main function:
+   - Prompts the user to input plaintext and the key.
+   - Calls `encrypt` to perform encryption and displays the ciphertext.
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
