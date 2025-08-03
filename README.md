@@ -14,8 +14,7 @@ This repository contains implementations of various algorithms written in C++. E
 
 ### Searching Algorithms
 - **Binary Search** (`binarySearch.cpp`): Searches for an element in a sorted array using a divide-and-conquer approach.
-- **Linear Search** (`linearSearch.cpp`): Searches for an element by iterating through the array.
-- **Linear Search with Sentinel** (`linearSearch.cpp`): Implements a linear search algorithm with a sentinel (guard) to ensure the search always terminates.
+- **Linear Search with Sentinel (`linearSearchSentinel.cpp`): Linear search using a sentinel to simplify termination checks.
 
 ### Mathematical Algorithms
 - **Euclidean Algorithm** (`euklides.cpp`): Calculates the GCD and LCM of two numbers.
