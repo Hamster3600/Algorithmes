@@ -1,3 +1,22 @@
+/*
+Explanation of the program:
+1. The program implements a simple Binary Search Tree (BST).
+2. Struct Node:
+   - Stores value and pointers to left and right children.
+3. insert:
+   - Inserts a new value into the tree, preserving BST rules.
+4. search:
+   - Finds whether a value exists in the tree (true/false).
+5. inorder:
+   - Prints elements of the tree in ascending order.
+6. findMin:
+   - Finds the minimum value in a given subtree.
+7. removeNode:
+   - Deletes a value from the tree while keeping BST rules.
+8. main:
+   - Demonstrates inserting, searching, printing and deleting nodes.
+*/
+
 #include <iostream>
 
 struct Node {

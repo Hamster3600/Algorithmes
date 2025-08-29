@@ -1,3 +1,28 @@
+/* 
+Explanation of the program:
+1. The program implements a Red-Black Tree.
+2. The Node structure:
+   - Stores a value, color, pointers to left/right children, and the parent.
+3. rotateLeft and rotateRight:
+   - Perform rotations to maintain tree balance and properties.
+4. fixInsert:
+   - Fixes any Red-Black Tree violations after inserting a new node.
+5. insert:
+   - Inserts a new element like in a BST and then calls fixInsert.
+6. search:
+   - Searches for an element and returns true/false.
+7. inorder:
+   - Traverses the tree in sorted order and prints values with their colors.
+8. findMin:
+   - Finds the minimum element in a subtree.
+9. fixDelete:
+   - Fixes Red-Black Tree violations after deleting a node.
+10. removeNode:
+   - Removes an element and calls fixDelete if necessary.
+11. main:
+   - Demonstrates insertion, search, and deletion.
+*/
+
 #include <iostream>
 
 enum Color { RED, BLACK };
@@ -21,6 +46,12 @@ void rotateLeft(Node*& root, Node* x) {
     y->left = x;
     x->parent = y;
 }
+// rotateLeft explanation:
+//     x                  y
+//      \                /
+//       y     ==>      x
+//      /                \
+//    (T2)               (T2)
 
 void rotateRight(Node*& root, Node* x) {
     Node* y = x->left;
@@ -33,6 +64,12 @@ void rotateRight(Node*& root, Node* x) {
     y->right = x;
     x->parent = y;
 }
+// rotateRight explanation:    
+//      x            y
+//     /              \
+//    y      ==>       x
+//     \              /
+//     (T2)         (T2)
 
 void fixInsert(Node*& root, Node* z) {
     while (z->parent != nullptr && z->parent->color == RED) {
