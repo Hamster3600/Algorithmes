@@ -11,10 +11,15 @@ This repository contains implementations of various algorithms written in C++. E
 - **Insertion Sort** (`insertionSort.cpp`): Sorts an array by inserting elements into their correct position.
 - **Selection Sort** (`selectionSort.cpp`): Sorts an array by repeatedly selecting the smallest element from the unsorted portion.
 - **Counting Sort** (`countingSort.cpp`): Sorts an array by counting occurrences of each element.
+- **Heap Sort** (`heap-sort.cpp`): Sorts an array using the heap data structure to efficiently find the maximum element.
 
 ### Searching Algorithms
 - **Binary Search** (`binarySearch.cpp`): Searches for an element in a sorted array using a divide-and-conquer approach.
 - **Linear Search with Sentinel** (`linearSearchSentinel.cpp`): Linear search using a sentinel to simplify termination checks.
+
+### Tree Data Structures
+- **Binary Search Tree (BST)** (`BST.cpp`): Implements a binary search tree with insertion, deletion, and search operations.
+- **Red-Black Tree** (`Red-Black-BST.cpp`): Implements a self-balancing binary search tree with guaranteed O(log n) operations.
 
 ### Mathematical Algorithms
 - **Euclidean Algorithm** (`euklides.cpp`): Calculates the GCD and LCM of two numbers.
