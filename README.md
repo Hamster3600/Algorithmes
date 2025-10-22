@@ -23,6 +23,7 @@ This repository contains implementations of various algorithms written in C++. E
 
 ### Mathematical Algorithms
 - **Euclidean Algorithm** (`euklides.cpp`): Calculates the GCD and LCM of two numbers.
+- **Extended Euclidean Algorithm** (`extendedEuklides.cpp`): Finds the GCD and coefficients for Bézout's identity, solving linear Diophantine equations.
 - **Fast Exponentiation** (`fastExponentiation.cpp`): Computes powers efficiently using divide-and-conquer.
 - **Prime Factorization** (`primeFactorization.cpp`): Finds the prime factors of a number.
 - **Sieve of Eratosthenes** (`eratosthenesSieve.cpp`): Finds all prime numbers up to a given limit.
